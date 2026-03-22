@@ -182,15 +182,3 @@ sudo /mnt/VOTRE_POOL/scripts/fix-incus-network.sh
 ## Pourquoi ne pas simplement désactiver Incus ?
 
 Le système d'applications de TrueNAS (Apps) s'appuie sur Incus en interne — le désactiver casserait complètement le système d'applications. La correction ci-dessus isole Incus sur un sous-réseau privé tout en maintenant toutes les fonctionnalités.
-
----
-
-## Contribution
-
-Si ce guide vous a été utile ou si vous avez des améliorations à proposer, n'hésitez pas à ouvrir une PR ou une issue. Si vous êtes sur une version différente de TrueNAS et que la correction doit être adaptée, partagez vos découvertes.
-
----
-
-## Licence
-
-MIT — faites-en ce que vous voulez.
